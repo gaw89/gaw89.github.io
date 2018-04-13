@@ -1,0 +1,40 @@
+h1 {
+	margin-top: 4px !important;
+}
+
+h3 {
+	margin-top: 4px !important;
+}
+
+.text_cell_render {
+	padding: 8px !important;
+}
+
+.slides img {
+	max-height: 40vh !important;
+}
+
+#Tiobe-Index-for-April-2018 {
+	margin-top: 0px !important;
+}
+
+.deep-image {
+	box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3) !important;
+}
+
+#rise-header img {
+	max-height: 8vh !important;
+}
+
+#rise-header {
+	right: .6em !important;
+	top: .5em !important;
+}
+
+body::before {
+	content: url(img/penn-logo.png);
+	max-height: 12px;
+	position: fixed;
+	top: 1.5em;
+	right: 1.5em;
+}
