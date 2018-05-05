@@ -7,6 +7,7 @@
 	<link rel="shortcut icon" type="image/png" href="https://gaw89.github.io/images//favicon.png">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.min.css">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/gaw89/626ae1667b0fbe179d89f541cac903a4/raw/e11c6b62fe42ec573c03b7fa478e71ed4463338c/penn_light.css" id="theme">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<!--Add support for earlier versions of Internet Explorer -->
 	<!--[if lt IE 9]>
 	<script src="lib/js/html5shiv.js"></script>
@@ -95,8 +96,7 @@
 
 			<!-- TITLE SLIDE -->
 			<section>
-				<h1>Clinical Resource Scheduling Tool</h1>
-				<h3><i>(working title)</i></h3>
+				<h2>Management of Clinical Resources in a Large Academic Ophthalmology Practice</h2>
 			</section>
 
 			<section>
@@ -147,34 +147,93 @@
 
 			</section>
 
-			<section>
-				<h2>Several Interconnected Challenges</h2>
-				<ul>
-					<li class="fragment fade-in">Opening New Sessions</li>
-					<li class="fragment fade-in">Managing the Physician Schedule</li>
-					<li class="fragment fade-in">Managing the Technician Schedule</li>
-					<li class="fragment fade-in">Managing & Tracking Room Utilization</li>
-				<ul>
-			</section>
-
 			<section data-transition="zoom-in convex-out">
 				<h2>There's a Common Theme...</h2>
 				<p class="fragment fade-in" style="color:#95001a">Managing clinical resources is hard!</p>
 			</section>
 
+			
+
 			<!-- SLIDE 1 -->
+			<section>
+				<!-- SUB-SLIDE 1 -->
+				<section>
+					<h2 style="color: #95001a">Problem:</h2>
+					<span class="fragment fade-in">Managing the Technician Schedule is Time Consuming and Painful</span>
+				</section>
+
+				<section>
+					<h2 style="color: #95001a">10+ Hours per Week!</h2>
+				</section>
+
+				<!-- SUB-SLIDE 2 -->
+				<section>
+					<h2 style="color: #95001a">Why?</h2>
+					<ul>
+						<li class="fragment fade-in"> Human Factors
+							<ul>
+								<li type="square" class="fragment fade-in small-font">Vacation</li>
+								<li type="square" class="fragment fade-in small-font">Callouts</li>
+								<li type="square" class="fragment fade-in small-font">Location/Physician Preferences</li>
+								<li type="square" class="fragment fade-in small-font">Time Preferences</li>
+								<li type="square" class="fragment fade-in small-font">Training Differences</li>
+							</ul>
+						</li><br>
+						<li class="fragment fade-in"> Large Number of Personnel
+							<ul>
+								<li type="square" class="fragment fade-in small-font">50 Clinical Faculty</li>
+								<li type="square" class="fragment fade-in small-font">60+ Technicians</li>
+								<li type="square" class="fragment fade-in small-font">8 Photographers</li>
+								<li type="square" class="fragment fade-in small-font">16 Scribes</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+
+				<!-- SUB-SLIDE 3 -->
+				<section>
+					<h2>Solution:</h2>
+					<span class="fragment fade-in">Increase availability of information for tech managers</span>
+				</section>
+
+				<section>
+					<ul>
+						<li> Personnel Information
+							<ul>
+								<li type="square" class="fragment fade-in small-font">Where are they?</li>
+								<li type="square" class="fragment fade-in small-font">When are they there?</li>
+								<li type="square" class="fragment fade-in small-font">What specific skills do they have?</li>
+								<li type="square" class="fragment fade-in small-font">Who do they work best with?</li>
+							</ul>
+						</li><br>
+						<li class="fragment fade-in"> Clinical Needs
+							<ul>
+								<li type="square" class="fragment fade-in small-font">How many techs does each doc need?</li>
+								<li type="square" class="fragment fade-in small-font">What skillset does each clinic require?</li>
+								<li type="square" class="fragment fade-in small-font">What time are the techs needed?</li>
+							</ul>
+						</li><br>
+						<li class="fragment fade-in"> Optimize Decision Process
+						</li>
+					</ul>
+				</section>
+
+			</section>
+
+<!-- SLIDE 1 -->
 			<section data-transition="convex-in fade-out">
 				<!-- SUB-SLIDE 1 -->
 				<section>
 					<h2 style="color: #95001a">Problem:</h2>
-					<span class="fragment fade-in">Opening New Sessions and Managing the Physician Schedule is Challenging</span>
+					<span class="fragment fade-in">Managing the Physician Schedule & Opening New Sessions is Challenging</span>
 					<!-- <img src="https://gaw89.github.io/images/email.png"> -->
 				</section>
 
 				<!-- SUB-SLIDE 2 -->
 				<section>
+					<h2 style="color: #95001a">Why?</h2>
 					<ul>
-						<li> Information is not available to those who need it
+						<li class="fragment fade-in"> Information is not available to those who need it
 							<ul>
 								<li type="square" class="fragment fade-in small-font">Room Availability</li>
 								<li type="square" class="fragment fade-in small-font">Technician Availability</li>
@@ -205,6 +264,52 @@
 				</section>
 			</section>
 
+			<!--  -->
+			<!-- PROBLEM 3 -->
+			<!--  -->
+			<section>
+				<!-- SUB-SLIDE 1 -->
+				<section>
+					<h2 style="color: #95001a">Problem:</h2>
+					<span class="fragment fade-in">Managing Room Utilization is Difficult</span>
+				</section>
+
+				<section>
+					<h2 style="color: #95001a">Room Utilization is < 80%!</h2>
+				</section>
+
+				<!-- SUB-SLIDE 2 -->
+				<section>
+					<h2 style="color: #95001a">Why?</h2>
+					<ul>
+					<li class="fragment fade-in">Many Road Blocks
+					<ul>
+							<li type="square" class="fragment fade-in small-font">We don't know when there are rooms available</li>
+							<li type="square" class="fragment fade-in small-font">There's no standard mechanism to sign out available rooms</li>
+							<li class="fragment fade-in small-font"> Can't Do Attitude</li>
+							<ul>
+								<li type="square" class="fragment fade-in small-font">We don't have enough techs</li>
+								<li type="square" class="fragment fade-in small-font">There aren't any rooms available</li>
+								<li type="square" class="fragment fade-in small-font">I'm not sure right now, I'll let you know when we get closer to the date</li>
+							</ul>
+						</ul>
+					</li>						
+					</ul>
+
+				</section>
+
+				<!-- SUB-SLIDE 3 -->
+				
+			</section>
+
+			<section data-transition="zoom-in convex-out">
+				<h2>There's a Common Theme...</h2>
+				<p class="fragment fade-in" style="color:#95001a">We don't have access to the information we need!</p>
+				<h2 class="fragment fade-in">Solution:</h2>
+				<span class="fragment fade-in">Increase availability of information</span>
+			</section>
+
+
 			<!-- SLIDE 2 -->
 			<section data-transition="zoom-in fade-out">
 				<h2>How?</h2>
@@ -217,7 +322,13 @@
 				</section>
 				<section>
 					<h2> Current State:</h2>
+					<span class="small-font">Physician Schedule</span>
 					<img src="https://gaw89.github.io/images/cur_master_sched.png">
+				</section>
+				<section>
+					<h2> Current State:</h2>
+					<span class="small-font">Technician Schedule</span>
+					<img src="https://gaw89.github.io/images/cur_tech_sched.png">
 				</section>
 				<section>
 					<h2> Problem? </h2>
@@ -273,121 +384,35 @@
 				<h3>We need a robust solution that makes all pertinent information available at the click of a button.</h3>
 			</section>
 
-			<!-- SLIDE 1 -->
+			
+			<section id="clinical-resource-scheduling-system" data-transition="slide-in fade-out">
+				<h2>Clinical Resource Scheduling</h2>
+			</section>
+
+			
 			<section>
-				<!-- SUB-SLIDE 1 -->
 				<section>
-					<h2 style="color: #95001a">Problem:</h2>
-					<span class="fragment fade-in">Managing the Technician Schedule is Time Consuming and Painful</span>
+					<h2> Phase 1 Go-Live: July 1 </h2>
 				</section>
-
 				<section>
-					<h2 style="color: #95001a">10+ Hours per Week!</h2>
-				</section>
-
-				<!-- SUB-SLIDE 2 -->
-				<section>
+					<h2> Phase 2</h2>
 					<ul>
-						<li> Human Factors
-							<ul>
-								<li type="square" class="fragment fade-in small-font">Vacation</li>
-								<li type="square" class="fragment fade-in small-font">Callouts</li>
-								<li type="square" class="fragment fade-in small-font">Location/Physician Preferences</li>
-								<li type="square" class="fragment fade-in small-font">Time Preferences</li>
-								<li type="square" class="fragment fade-in small-font">Training Differences</li>
-							</ul>
-						</li><br>
-						<li class="fragment fade-in"> Large Number of Personnel
-							<ul>
-								<li type="square" class="fragment fade-in small-font">50 Clinical Faculty</li>
-								<li type="square" class="fragment fade-in small-font">60+ Technicians</li>
-								<li type="square" class="fragment fade-in small-font">8 Photographers</li>
-								<li type="square" class="fragment fade-in small-font">16 Scribes</li>
-							</ul>
-						</li>
+						<li class="fragment fade-in small-font">Shareable</li>
+						<li class="fragment fade-in small-font">Easy to Understand</li>
+						<li class="fragment fade-in small-font">Easy to Use</li>
+						<li class="fragment fade-in small-font">Easy to Explain</li>
 					</ul>
 				</section>
-
-				<!-- SUB-SLIDE 3 -->
 				<section>
-					<h2>Solution:</h2>
-					<span class="fragment fade-in">Increase availability of information for tech managers</span>
-				</section>
-
-				<section>
+					<h2> Problem? </h2>
 					<ul>
-						<li> Personnel Information
-							<ul>
-								<li type="square" class="fragment fade-in small-font">Where are they?</li>
-								<li type="square" class="fragment fade-in small-font">When are they there?</li>
-								<li type="square" class="fragment fade-in small-font">What specific skills do they have?</li>
-								<li type="square" class="fragment fade-in small-font">Who do they work best with?</li>
-							</ul>
-						</li><br>
-						<li class="fragment fade-in"> Clinical Needs
-							<ul>
-								<li type="square" class="fragment fade-in small-font">How many techs does each doc need?</li>
-								<li type="square" class="fragment fade-in small-font">What skillset does each clinic require?</li>
-								<li type="square" class="fragment fade-in small-font">What time are the techs needed?</li>
-							</ul>
-						</li><br>
-						<li class="fragment fade-in"> Optimize Decision Process
-							<ul>
-								<li type="square" class="fragment fade-in small-font"></li>
-								<li type="square" class="fragment fade-in small-font">What skillset does each clinic require?</li>
-								<li type="square" class="fragment fade-in small-font">What time are the techs needed?</li>
-							</ul>
-						</li>
+						<li class="fragment fade-in small-font">Fragile</li>
+						<li class="fragment fade-in small-font">Difficult to Maintain</li>
+						<li class="fragment fade-in small-font">Impossible to Extract Information</li>
+						<li class="fragment fade-in small-font">Hard to Track & Easy to Change</li>
 					</ul>
 				</section>
-
 			</section>
-
-			<!--  -->
-			<!-- PROBLEM 3 -->
-			<!--  -->
-			<section>
-				<!-- SUB-SLIDE 1 -->
-				<section>
-					<h2 style="color: #95001a">Problem:</h2>
-					<span class="fragment fade-in">Managing Room Utilization is Difficult</span>
-				</section>
-
-				<!-- SUB-SLIDE 2 -->
-				<section>
-					<ul>
-					<li class="fragment fade-in">Many Road Blocks</li>
-					<li class="fragment fade-in">Perspective</li>
-						<ul>
-							<li type="square" class="fragment fade-in small-font">We don't know when there are rooms available</li>
-							<li type="square" class="fragment fade-in small-font">There's no standard mechanism to sign out available rooms</li>
-							<li class="fragment fade-in small-font"> Can't Do Attitude</li>
-							<ul>
-								<li type="square" class="fragment fade-in small-font">We don't have enough techs</li>
-								<li type="square" class="fragment fade-in small-font">There aren't any rooms available</li>
-								<li type="square" class="fragment fade-in small-font">I'm not sure right now, I'll let you know when we get closer to the date</li>
-							</ul>
-						</ul>
-					</ul>
-
-				</section>
-
-				<!-- SUB-SLIDE 3 -->
-				<section>
-					<h2>Solution:</h2>
-					<span class="fragment fade-in">Increase availability of information</span>
-				</section>
-			</section>
-
-
-
-			<!-- SLIDE 2 -->
-			<section data-transition="zoom-in fade-out">
-				<h3>What if, in solving our challenges, we could solve it for others at Penn as well?</h3>
-			</section>
-
-
-
 
 			<!--  -->
 			<!-- END SLIDES -->
@@ -407,11 +432,13 @@
 		});
 		Reveal.addEventListener('slidechanged', function(evt) {
 			console.log(evt.currentSlide)
-  if (evt.currentSlide.id == "timeline") {
-    var line = document.getElementById("timeline-line")
-		line.classList.remove("timeline")
-		line.classList.add("timeline")
-  }
+			if (evt.currentSlide.id == "timeline") {
+    	var line = document.getElementById("timeline-line")
+			line.classList.remove("timeline")
+			line.classList.add("timeline")
+  		} else if (evt.currentSlide.id == "clinical-resource-scheduling-system") {
+			//alert("OUCH!")
+		}
 });
 	</script>
 </body>
