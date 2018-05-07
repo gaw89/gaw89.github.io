@@ -13,6 +13,10 @@
 	<script src="lib/js/html5shiv.js"></script>
 	<![endif]-->
 	<style>
+		.deep-image {
+	box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3) !important;
+}
+	
 		.small-font {
 			font-size: .75em !important;
 		}
@@ -189,35 +193,6 @@
 						</li>
 					</ul>
 				</section>
-
-				<!-- SUB-SLIDE 3 -->
-				<section>
-					<h2>Solution:</h2>
-					<span class="fragment fade-in">Increase availability of information for tech managers</span>
-				</section>
-
-				<section>
-					<ul>
-						<li> Personnel Information
-							<ul>
-								<li type="square" class="fragment fade-in small-font">Where are they?</li>
-								<li type="square" class="fragment fade-in small-font">When are they there?</li>
-								<li type="square" class="fragment fade-in small-font">What specific skills do they have?</li>
-								<li type="square" class="fragment fade-in small-font">Who do they work best with?</li>
-							</ul>
-						</li><br>
-						<li class="fragment fade-in"> Clinical Needs
-							<ul>
-								<li type="square" class="fragment fade-in small-font">How many techs does each doc need?</li>
-								<li type="square" class="fragment fade-in small-font">What skillset does each clinic require?</li>
-								<li type="square" class="fragment fade-in small-font">What time are the techs needed?</li>
-							</ul>
-						</li><br>
-						<li class="fragment fade-in"> Optimize Decision Process
-						</li>
-					</ul>
-				</section>
-
 			</section>
 
 <!-- SLIDE 1 -->
@@ -226,80 +201,17 @@
 				<section>
 					<h2 style="color: #95001a">Problem:</h2>
 					<span class="fragment fade-in">Managing the Physician Schedule & Opening New Sessions is Challenging</span>
-					<!-- <img src="https://gaw89.github.io/images/email.png"> -->
 				</section>
 
 				<!-- SUB-SLIDE 2 -->
 				<section>
 					<h2 style="color: #95001a">Why?</h2>
 					<ul>
-						<li class="fragment fade-in"> Information is not available to those who need it
-							<ul>
-								<li type="square" class="fragment fade-in small-font">Room Availability</li>
-								<li type="square" class="fragment fade-in small-font">Technician Availability</li>
-								<li type="square" class="fragment fade-in small-font">Scribe Availability</li>
-							</ul>
-						</li><br>
+						<li class="fragment fade-in">We typically don't know when there are rooms available</li><br>
 						<li class="fragment fade-in">Even when we know, we don't know far enough in advance to do anything about it</li><br>
-						<li class="fragment fade-in">There is no standardized process for opening rooms
-							<ul>
-								<li type="square" class="fragment fade-in small-font">Send an email?</li>
-								<li type="square" class="fragment fade-in small-font">Ask your AA to send an email?</li>
-								<li type="square" class="fragment fade-in small-font">Who do you email?</li>
-								<li type="square" class="fragment fade-in small-font">Talk to tech manager in the hallway?</li>
-								<li type="square" class="fragment fade-in small-font">Send your favorite carrier pigeon?</li>
-							</ul>
-						</li>
+						<li class="fragment fade-in">There is no standardized process for opening rooms</li>
 					</ul>
 				</section>
-
-				<!-- SUB-SLIDE 3 -->
-				<section>
-					<h2>Solution:</h2>
-					<ul>
-					<li class="fragment fade-in">Track room availability</li>
-					<li class="fragment fade-in">Track personnel availability</li>
-					<li class="fragment fade-in">Create standardized process for opening sessions</li>
-					</ul>
-				</section>
-			</section>
-
-			<!--  -->
-			<!-- PROBLEM 3 -->
-			<!--  -->
-			<section>
-				<!-- SUB-SLIDE 1 -->
-				<section>
-					<h2 style="color: #95001a">Problem:</h2>
-					<span class="fragment fade-in">Managing Room Utilization is Difficult</span>
-				</section>
-
-				<section>
-					<h2 style="color: #95001a">Room Utilization is < 80%!</h2>
-				</section>
-
-				<!-- SUB-SLIDE 2 -->
-				<section>
-					<h2 style="color: #95001a">Why?</h2>
-					<ul>
-					<li class="fragment fade-in">Many Road Blocks
-					<ul>
-							<li type="square" class="fragment fade-in small-font">We don't know when there are rooms available</li>
-							<li type="square" class="fragment fade-in small-font">There's no standard mechanism to sign out available rooms</li>
-							<li class="fragment fade-in small-font"> Can't Do Attitude</li>
-							<ul>
-								<li type="square" class="fragment fade-in small-font">We don't have enough techs</li>
-								<li type="square" class="fragment fade-in small-font">There aren't any rooms available</li>
-								<li type="square" class="fragment fade-in small-font">I'm not sure right now, I'll let you know when we get closer to the date</li>
-							</ul>
-						</ul>
-					</li>						
-					</ul>
-
-				</section>
-
-				<!-- SUB-SLIDE 3 -->
-				
 			</section>
 
 			<section data-transition="zoom-in convex-out">
@@ -323,12 +235,12 @@
 				<section>
 					<h2> Current State:</h2>
 					<span class="small-font">Physician Schedule</span>
-					<img src="https://gaw89.github.io/images/cur_master_sched.png">
+					<img class="deep-image" src="https://gaw89.github.io/images/cur_master_sched.png">
 				</section>
-				<section>
+				<section style="max-height: 80%">
 					<h2> Current State:</h2>
 					<span class="small-font">Technician Schedule</span>
-					<img src="https://gaw89.github.io/images/cur_tech_sched.png">
+					<img class="deep-image" src="https://gaw89.github.io/images/cur_tech_sched.png">
 				</section>
 				<section>
 					<h2> Problem? </h2>
@@ -362,31 +274,19 @@
 						<li class="fragment fade-in small-font">Fragile</li>
 						<li class="fragment fade-in small-font">Difficult to Maintain</li>
 						<li class="fragment fade-in small-font">Impossible to Extract Information</li>
-						<li class="fragment fade-in small-font">Hard to Track & Easy to Change</li>
+						<li class="fragment fade-in small-font">Hard to Track</li>
 					</ul>
 				</section>
 			</section>
 
-			<section>
-				<h2>Word document on a shared drive?</h2>
-			</section>
-
-			<section>
-				<h2>Bulletin board?</h2>
-			</section>
-
-			<section>
-				<h2>Chalkboard?</h2>
-			</section>
-
 			<!-- SLIDE 2 -->
 			<section data-transition="zoom-in fade-out">
-				<h3>We need a robust solution that makes all pertinent information available at the click of a button.</h3>
+				<h3>We need a robust solution that makes all pertinent information available at the click of a button</h3>
 			</section>
 
 			
 			<section id="clinical-resource-scheduling-system" data-transition="slide-in fade-out">
-				<a href="https://gw-decision-models-conley.herokuapp.com/" target="_blank"><h2>Clinical Resource Scheduling</h2></a>
+				<a href="https://tu-capstone.herokuapp.com" target="_blank"><h2>Clinical Resource Scheduling Tool</h2></a>
 			</section>
 
 			
@@ -395,23 +295,15 @@
 					<h2> Phase 1 Go-Live: July 1 </h2>
 				</section>
 				<section>
-					<h2> Phase 2</h2>
-					<!-- <ul>
-						<li class="fragment fade-in small-font">Optimized Tech Scheduling</li>
-						<li class="fragment fade-in small-font">Easy to Understand</li>
-						<li class="fragment fade-in small-font">Easy to Use</li>
-						<li class="fragment fade-in small-font">Easy to Explain</li>
-					</ul>
+					<h2> Phase 2: Optimized Support Staff Scheduling</h2>
 				</section>
 				<section>
-					<h2> Problem? </h2>
-					<ul>
-						<li class="fragment fade-in small-font">Fragile</li>
-						<li class="fragment fade-in small-font">Difficult to Maintain</li>
-						<li class="fragment fade-in small-font">Impossible to Extract Information</li>
-						<li class="fragment fade-in small-font">Hard to Track & Easy to Change</li>
-					</ul> -->
+					<h2> Phase 2 Go-Live: October 1 </h2>
 				</section>
+			</section>
+			
+			<section>
+				<h2> Thank you! </h2>
 			</section>
 
 			<!--  -->
